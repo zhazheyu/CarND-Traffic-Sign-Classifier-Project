@@ -144,7 +144,7 @@ If an iterative approach was chosen:
    
 * Which parameters were tuned? How were they adjusted and why?
 
-  A: 1.Tuning learning rate to 0.005. Because the original 0.001 is too small for 10 epoch.  2. Batch size, 128, tuned to 256, but the effects are small. 3. Dropout keep probability, tuned to small if found accuracy is oscillate during training process.
+  A: 1.Tuning learning rate to 0.005. Because the original 0.001 is too small for 10 epoch.  2. Batch size, 128, tuned to 256, but the effects are small. 3. Dropout keep probability, tuned to small but found accuracy is oscillate during training process.
 
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
 
@@ -185,7 +185,7 @@ Here are the results of the prediction:
 | No entry			| No entry      							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
